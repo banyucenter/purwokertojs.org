@@ -1,4 +1,4 @@
-# purwokertojs.org
+# purwokertojs
 
 <h1>PurwokertoJs Website Official</h1>
 <p>Program sederhana menggunakan nodejs dan mongodb</p>
