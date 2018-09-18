@@ -39,7 +39,7 @@ mongoose.connect('mongodb://localhost/mo_purwokertojs')
   .catch((err) => console.error(err));*/
 
 var mongoose = require('mongoose');
-let dev_db_url = 'mongodb://ipungdev:AllahMahaKaya9900@ds219051.mlab.com:19051/mo_purwokertojs';
+let dev_db_url = 'mongodb://ipungdev:yourpassword@ds219051.mlab.com:19051/nama_database';
 let mongoDB = process.env.MONGODB_URI || dev_db_url;
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
